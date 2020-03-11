@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 20px;
+  color:black;
+}
+#navbar{
+  border: 2px solid #333333;
+  height: 8vh;
+  background-color: #B1A296;
+  justify-content: space-evenly;
+}
+.titles{
+  text-align: center;
+  align-items: center;
+}
+.titles a{
+  color:#557A95;
+  text-decoration: none;
+  justify-content: space-evenly;
+  padding: 0px 60px;
+  align-self: center;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: opacity 1s ease, border-bottom 1s ease;
+  border-bottom: none;
+}
+.titles a:hover{
+  opacity:1;
+  border-bottom: 2px solid white;
+}
