@@ -1,25 +1,20 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-import About from './About';
-import Projects from './Projects';
+import React from "react";
 
 export default function Header() {
-    return (
-        <div style={headerStyle}>
-            <h1 style={{fontSize: '60px', padding: '15px'}}>Robbie's Portfolio</h1>
-      </div>
-    )
+  return (
+    <div style={headerStyle}>
+      <h1 className="Title">
+        Robbie's Portfolio
+        <span id="underline"></span>
+      </h1>
+    </div>
+  );
 }
-    const headerStyle = {
-        background: '#5D5C61',
-        color: '#CCCCCC',
-        height: '30vh',
-        textAlign: 'center',
-        padding: '30px'
-        
-    }
+const headerStyle = {
+  background: "#5D5C61",
+  color: "#FFFFFF",
+  height: "30vh",
+  textAlign: "center",
+  padding: "30px",
+  position: "relative"
+};
